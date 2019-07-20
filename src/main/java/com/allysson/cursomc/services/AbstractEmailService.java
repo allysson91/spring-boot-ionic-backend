@@ -8,7 +8,7 @@ import java.util.Date;
 
 public abstract class AbstractEmailService implements EmailService {
 
-    @Value("${defult.sender}")
+    @Value("${default.sender}")
     private String sender;
 
     @Override
